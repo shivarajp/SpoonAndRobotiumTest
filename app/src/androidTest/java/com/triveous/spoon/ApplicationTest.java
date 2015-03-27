@@ -36,6 +36,7 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         solo.sleep(2993);
         solo.clickOnButton("New Button");
         solo.sleep(2993);
+        
         Spoon.screenshot(getActivity(),"MyActivity");
         Log.d("","done");
     }
