@@ -1,0 +1,365 @@
+{
+  "title": "Spoon Execution",
+  "started": 1427796817031,
+  "duration": 25,
+  "results": {
+    "014E23841000C00B": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Galaxy Nexus",
+        "manufacturer": "samsung",
+        "version": "4.3",
+        "apiLevel": 18,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.triveous.spoon.ApplicationTest",
+            "methodName": "testRun"
+          },
+          {
+            "status": "PASS",
+            "duration": 12,
+            "screenshots": [
+              "C:\\Users\\Shivam\\Downloads\\SpoonAndRobotiumTest\\spoon-output\\image\\014E23841000C00B\\com.triveous.spoon.ApplicationTest\\testRun\\1427796818518_MyActivity.png",
+              "C:\\Users\\Shivam\\Downloads\\SpoonAndRobotiumTest\\spoon-output\\image\\014E23841000C00B\\com.triveous.spoon.ApplicationTest\\testRun\\1427796826420_MyActivity.png"
+            ],
+            "animatedGif": "C:\\Users\\Shivam\\Downloads\\SpoonAndRobotiumTest\\spoon-output\\image\\014E23841000C00B\\com.triveous.spoon.ApplicationTest\\testRun.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "03-31 15:43:35.954",
+                "mMessage": "started: testRun(com.triveous.spoon.ApplicationTest)"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "Could not find method android.view.ViewGroup.onNestedScrollAccepted, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onNestedScrollAccepted"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: unable to resolve virtual method 11400: Landroid/view/ViewGroup;.onNestedScrollAccepted (Landroid/view/View;Landroid/view/View;I)V"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: replacing opcode 0x6f at 0x0000"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "Could not find method android.view.ViewGroup.onStopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onStopNestedScroll"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: unable to resolve virtual method 11406: Landroid/view/ViewGroup;.onStopNestedScroll (Landroid/view/View;)V"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: replacing opcode 0x6f at 0x0000"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "Could not find method android.support.v7.internal.widget.ActionBarOverlayLayout.stopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.setHideOnContentScrollEnabled"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: unable to resolve virtual method 9083: Landroid/support/v7/internal/widget/ActionBarOverlayLayout;.stopNestedScroll ()V"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.149",
+                "mMessage": "VFY: replacing opcode 0x6e at 0x000e"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "VFY: unable to resolve virtual method 391: Landroid/content/res/TypedArray;.getChangingConfigurations ()I"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "VFY: replacing opcode 0x6e at 0x0002"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "VFY: unable to resolve virtual method 413: Landroid/content/res/TypedArray;.getType (I)I"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:36.157",
+                "mMessage": "VFY: replacing opcode 0x6e at 0x0002"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "03-31 15:43:36.251",
+                "mMessage": "loaded /vendor/lib/egl/libEGL_POWERVR_SGX540_120.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "03-31 15:43:36.251",
+                "mMessage": "loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "03-31 15:43:36.259",
+                "mMessage": "loaded /vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "03-31 15:43:36.321",
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:38.540",
+                "mMessage": "GC_FOR_ALLOC freed 185K, 6% free 9212K/9744K, paused 28ms, total 28ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "03-31 15:43:38.548",
+                "mMessage": "Grow heap (frag case) to 12.282MB for 3409936-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:38.571",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 5% free 12542K/13076K, paused 19ms, total 19ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "03-31 15:43:39.204",
+                "mMessage": "Captured screenshot \u0027MyActivity\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:43.501",
+                "mMessage": "GC_FOR_ALLOC freed 3367K, 6% free 9216K/9708K, paused 23ms, total 24ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32215",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "03-31 15:43:43.524",
+                "mMessage": "Grow heap (frag case) to 15.147MB for 6410576-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32222",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:43.548",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 4% free 15476K/15972K, paused 26ms, total 26ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:46.446",
+                "mMessage": "GC_FOR_ALLOC freed 12K, 4% free 15475K/15972K, paused 32ms, total 32ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "03-31 15:43:46.454",
+                "mMessage": "Grow heap (frag case) to 18.398MB for 3409936-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32222",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:46.478",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 3% free 18805K/19304K, paused 21ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "03-31 15:43:47.751",
+                "mMessage": "Captured screenshot \u0027MyActivity\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "",
+                "mTime": "03-31 15:43:47.751",
+                "mMessage": "done"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:48.853",
+                "mMessage": "GC_EXPLICIT freed 3358K, 4% free 15464K/15968K, paused 2ms+4ms, total 38ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:48.853",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 1ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "03-31 15:43:48.892",
+                "mMessage": "GC_EXPLICIT freed 7K, 4% free 15457K/15968K, paused 7ms+4ms, total 35ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "32215",
+                "mTid": "32246",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "03-31 15:43:48.892",
+                "mMessage": "finished: testRun(com.triveous.spoon.ApplicationTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1427796817031,
+      "duration": 13,
+      "exceptions": []
+    }
+  }
+}

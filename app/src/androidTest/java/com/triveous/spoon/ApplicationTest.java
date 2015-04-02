@@ -6,10 +6,6 @@ import android.util.Log;
 import com.robotium.solo.Solo;
 import com.squareup.spoon.Spoon;
 
-
-/**
- * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
- */
 public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivity> {
     public ApplicationTest() {
         super(MainActivity.class);
@@ -36,7 +32,11 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         solo.sleep(2993);
         solo.clickOnButton("New Button");
         solo.sleep(2993);
-        Spoon.screenshot(getActivity(),"MyActivity");
-        Log.d("","done");
+        Spoon.screenshot(getActivity(), "MyActivity");
+        if (solo.waitForActivity("MyActivity", 2000)) {
+            Log.d("", "Found activity");
+        } else {
+            Log.d("", "Not found");
+        }
     }
 }
