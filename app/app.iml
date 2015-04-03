@@ -90,6 +90,7 @@
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="robotium-solo-5.2.2-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="spoon-client-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="android-junit-report-1.5.8" level="project" />
   </component>
 </module>
 

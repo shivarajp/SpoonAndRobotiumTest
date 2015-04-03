@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.triveous.spoon"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        testInstrumentationRunner "com.zutubi.android.junitreport.JUnitReportTestRunner"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1
@@ -27,5 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile files('src/main/java/lib/robotium-solo-5.2.2-SNAPSHOT.jar')
     compile files('src/main/java/lib/spoon-client-1.1.1.jar')
+    compile files('src/main/java/lib/android-junit-report-1.5.8.jar')
 }
 
