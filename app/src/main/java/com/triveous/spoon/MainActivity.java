@@ -17,6 +17,8 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 findViewById(R.id.button).setBackground(getWallpaper());
+
+                
                 
             }
         });
