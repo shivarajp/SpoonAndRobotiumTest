@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.triveous.spoon.test" tests="1" failures="0" errors="0" time="12.938" timestamp="2015-03-31T10:13:56" hostname="localhost">
-  <properties />
-  <testcase name="testRun" classname="com.triveous.spoon.ApplicationTest" time="12.911" />
-</testsuite>
