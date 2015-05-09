@@ -19,10 +19,10 @@ public class MainActivity extends ActionBarActivity {
                 findViewById(R.id.button).setBackground(getWallpaper());
 
                 
-                
             }
         });
     }
+
 
 
     @Override
