@@ -11,8 +11,6 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         super(MainActivity.class);
     }
 
-
-
     private Solo solo;
 
     public void setUp() throws Exception {
