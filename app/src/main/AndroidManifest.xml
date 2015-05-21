@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.triveous.spoon" >
 
+
     <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
         android:targetPackage="com.triveous.spoon"/>
-
 
     <application
         android:allowBackup="true"
