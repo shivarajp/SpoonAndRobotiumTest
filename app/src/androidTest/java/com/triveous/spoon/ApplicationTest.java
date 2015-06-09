@@ -1,11 +1,15 @@
 package com.triveous.spoon;
 
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.suitebuilder.annotation.LargeTest;
 import android.util.Log;
 
 import com.robotium.solo.Solo;
 import com.squareup.spoon.Spoon;
 
+import org.junit.Test;
+
+@LargeTest
 public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivity> {
     public ApplicationTest() {
         super(MainActivity.class);
@@ -25,6 +29,7 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         super.tearDown();
     }
 
+    @Test
     public void testRun() {
         solo.waitForActivity("MyActivity", 2000);
         Spoon.screenshot(getActivity(), "MyActivity");
